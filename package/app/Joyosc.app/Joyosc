@@ -1,0 +1,3 @@
+#! /bin/bash
+SCRIPT_DIR=$(dirname $(dirname $0))
+cd $SCRIPT_DIR/bin && ./joyosc -w
